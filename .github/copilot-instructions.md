@@ -47,22 +47,18 @@
 
 ### Technical Needs
 
-- (사용할 프레임워크/라이브러리/플랫폼)React/Vue.js 프론트엔드, Node.js/Express 백엔드, Firebase/MongoDB
-- (데이터 저장 방식: 로컬/DB/API 등)클라우드 DB (Firebase Firestore 또는 MongoDB), 로컬 캐싱
-- (로그/분석/모니터링 방식)Google Analytics, Sentry 에러 추적
-- (성능/확장성/보안 요구사항)응답 시간 1초 이내, SSL/TLS 보안 암호화
+- (사용할 프레임워크/라이브러리/플랫폼)React 프론트엔드
+- (데이터 저장 방식: 로컬/DB/API 등) 로컬 캐싱
+- (로그/분석/모니터링 방식)Google Analytics
 
 ### Guidelines
 
-- (코딩 스타일 규칙)ESLint, Prettier 사용, camelCase 변수명
 - (폴더 구조 규칙)src/components, src/pages, src/services, src/assets 구조
-- (문서화 방식)JSDoc 주석, README 및 API 문서화
-- (주석/컨벤션/협업 규칙)커밋 메시지 Conventional Commits, PR 리뷰 필수
+- (문서화 방식) README 및 API 문서화
 
 ### Privacy
 
 - (서비스 사용에 주의해야 할 점)개인의 감정 정보는 저장하지 않음
-- (어디에 저장되는지: 로컬/서버/클라우드)사용자 선호도는 클라우드 DB, 열람 기록은 로컬 저장
 - (외부 전송 여부)외부 서비스와 데이터 연동 없음 (분석 제외)
 - (사용자 동의/약관/개인정보 처리 방식)이용약관 및 개인정보 보호정책 게시
 
@@ -105,8 +101,6 @@
 
 ### Advanced Features & Edge Cases
 
-- (예외 상황 처리: 오프라인, 네트워크 끊김, 오류 등)캐시된 명언 표시, 오프라인 모드 지원, 재시도 로직
-- (중복/버그/데이터 손실 방지 전략)Cloud Sync 활용, 로컬 백업 유지
 - (고해상도/다양한 디바이스 대응)반응형 CSS, 모바일/태블릿/PC 최적화
 - (장시간 실행/절전/복구 시 동작 방식)자동 새로고침, 세션 유지
 
@@ -131,7 +125,8 @@
 ### Business Metrics
 
 - (MAU/DAU/가입자 수/다운로드 수 등)월간활성사용자 10,000명 이상, 월 50% 성장률 목표
-- (수익/전환율/성공률)프리미엄 구독 전환율 5%, 월간 반복 사용자 60%
+- (수익/전환율/성공률)프리미엄 구독 전환율 5%, 월간 반복 사용자 60%# 사용자가 URL을 제공하면 저는 이 명령으로 처리합니다
+curl -o src/assets/background.jpg "YOUR_IMAGE_URL"
 - (시장 반응/리뷰/평점)앱스토어 별점 4.5 이상, 긍정적 리뷰율 80% 이상
 
 ### Technical Metrics
